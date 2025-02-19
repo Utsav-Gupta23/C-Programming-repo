@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-  31. Multiplication Table
+  // 31. Multiplication Table
   int num;
 
   printf("Enter the number: ");
@@ -15,7 +15,7 @@ int main() {
     i++;
   }
 
-  32. Sum of all odd numbers till N
+  // 32. Sum of all odd numbers till N
   int n;
   printf("Enter the limit: ");
   scanf("%d",&n);
@@ -40,7 +40,7 @@ int main() {
   }
   printf("The factorial of %d is %d", n, fact);
 
-  34. Sum of Digits
+  // 34. Sum of Digits
   int n;
   printf("Enter the number: ");
   scanf("%d",&n);
@@ -52,7 +52,7 @@ int main() {
   }
   printf("%d", sum);
 
-  35.
+  // 35.
   int num1, num2;
   int lcm;
 
@@ -165,7 +165,7 @@ int main() {
     }
   }
 
-  40. Armstrong Number
+  // 40. Armstrong Number
   int n, original_n, sum = 0, length;
 
     // Input number
@@ -194,7 +194,7 @@ int main() {
 
     return 0;
 
-  42.
+  // 42.
   int n;
   printf("Enter n: ");
   scanf("%d",&n);
@@ -231,14 +231,14 @@ int main() {
     printf("\n");
   }
 
-  43.
+  // 43.
   int n;
   do {
     printf("Enter a Negative Number: ");
     scanf("%d",&n);
   } while(n >= 0);
 
-  44.
+  // 44.
   int n;
   int sum = 0;
   printf("To Stop enter zero(0)\n");
@@ -249,7 +249,7 @@ int main() {
   } while(n != 0);
   printf("%d", sum);
 
-  47
+  // 47
   int n; int sum=0;
   
   while(1) {
@@ -268,7 +268,7 @@ int main() {
   }
   printf("Sum of all positive numbers is = %d",sum);
 
-  48
+  // 48
   int n;
 
     while(1) {
@@ -285,7 +285,7 @@ int main() {
       }
     }
 
-  49.
+  // 49.
   double n;
   double sq;
 
@@ -300,8 +300,4 @@ int main() {
       sq = pow(n,2);
       printf("The square of %.2lf is %.2lf\n", n,sq);
     }
-
-
-
-
 }
